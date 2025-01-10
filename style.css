@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: .8rem;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+    background-color: #151B27;
+}
+
+form {
+    border: 3.5px solid #fff;
+    padding: 1em .7em;
+}
+
+.header {
+    font-size: 1rem;
+}
+
+.coment {
+    padding-top: 2em;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+textarea {
+    margin: .5em 0;
+    height: 9.5em;
+    background-color: #1F2734;
+    border: 0;
+}
+
+input:not(#idguardar, .button){
+    margin: .5em 0;
+    height: 2.2em;
+    background-color: #1F2734;
+    border: 0;
+}
+
+.cont_guardar {
+    display: flex;
+    align-items: start;
+    gap: .4em;
+}
+
+
+.button {
+    text-align: center;
+    padding: .7em 2em;
+    margin: .5em 0;
+    background-color: #1F2734;
+    border: 0;
+    font-weight: 800;
+    font-size: .8em;
+
+}
+
+.button:hover {
+    background-color: rgb(255, 0, 0);
+}
+
